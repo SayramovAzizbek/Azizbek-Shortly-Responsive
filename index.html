@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shortly</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <!-- Start Header Section -->
+
+    <header id="site-header">
+        <div class="container">
+            <div class="header-part">
+                <a href="/index.html" class="header-part__logo-link">
+                    <img src="./images/logo-black.svg" width="120" height="32" alt="Our site's logo">
+                </a>
+                <button class="header-part__nav-btn" type="button"></button>
+                <div class="header-part__links-box">
+                    <nav class="header-part__nav site-nav">
+                        <ul class="site-nav__list">
+                            <li class="site-nav__item">
+                                <a href="#" class="site-nav__link">Features</a>
+                            </li>
+                            <li class="site-nav__item">
+                                <a href="#" class="site-nav__link">Pricing</a>
+                            </li>
+                            <li class="site-nav__item">
+                                <a href="#" class="site-nav__link">Resources</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-part__login-links-box login-link-box">
+                        <a class="login-links login-link-box__login" href="#"> Login</a>
+                        <a class="login-links login-link-box__signup" href="#">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- End of Header Section -->
+
+    <!-- Start Main Section -->
+    <main class="site-main">
+
+        <!-- Start Hero Section -->
+        <section id="hero">
+            <div class="container">
+                <div class="hero-part">
+                    <div class="hero-part__info-box">
+                        <h1 class="hero-part__title">More than just shorter links</h1>
+                        <div class="hero-part__text-box">
+                            <p class="hero-part__text">Build your brand’s recognition and get detailed insights on how
+                                your
+                                links are performing.</p>
+                        </div>
+                        <div class="hero-part_link-box">
+                            <a class="hero-part__link" href="#">Get Started</a>
+                        </div>
+                    </div>
+                    <img class="hero-part__img" src="./images/hero-bg-img-mobile.svg" width="280" height="270" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- End of Hero Section -->
+
+        <!-- Start Form Section -->
+        <section id="form">
+            <div class="container">
+                <div class="form-part">
+                    <form class="form-part__form" action="https://echo.htmlacademy.ru/courses" autocomplete="off"
+                        method="POST">
+                        <label class="form-part__label">
+                            <input class="form-part__input" type="url" name="user_shorten_link"
+                                aria-label="Shorten a link here..." minlength="3" placeholder="Shorten a link here..." required>
+                            <span class="form-part__input-err">Please add a link</span>
+                        </label>
+                        <div class="form-part__btn-box">
+                            <button class="form-part__btn" type="submit">Shorten It!</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- End of Form Section -->
+
+    </main>
+
+    <!-- End of Main Section -->
+
+    <!-- Start Footer Section -->
+    <footer id="site-footer">
+
+    </footer>
+    <!-- End of Footer Section-->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
