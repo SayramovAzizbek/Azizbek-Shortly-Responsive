@@ -173,6 +173,10 @@ a {
   color: #FFFFFF;
 }
 
+.site-nav__link:hover {
+  color: white;
+}
+
 .login-link-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -194,17 +198,6 @@ a {
   padding: 11px 80px;
   background-color: var(--main-text-color-6);
   border-radius: 28px;
-}
-
-.site-nav__link:hover,
-.login-links:hover {
-  color: var(--main-text-color-1);
-}
-
-.login-link-box__signup:hover,
-.hero-part__link:hover {
-  background-color: #9AE3E3;
-  color: #FFFFFF;
 }
 
 @media only screen and (min-width: 450px) {
@@ -279,6 +272,15 @@ a {
     color: #FFFFFF;
     background-color: var(--main-text-color-6);
     border-radius: 28px;
+  }
+  .site-nav__link:hover,
+.login-links:hover {
+    color: var(--main-text-color-1);
+  }
+  .login-link-box__signup:hover,
+.hero-part__link:hover {
+    background-color: #9AE3E3;
+    color: #FFFFFF;
   }
 }
 /* End of Header Section */
