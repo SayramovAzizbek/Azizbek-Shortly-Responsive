@@ -180,17 +180,6 @@ a {
     border-radius: 28px;
 }
 
-.site-nav__link:hover,
-.login-links:hover {
-    color: var(--main-text-color-1);
-}
-
-.login-link-box__signup:hover,
-.hero-part__link:hover {
-    background-color: #9AE3E3;
-    color: #FFFFFF;
-}
-
 @media only screen and (min-width:450px) {
     .header-part__links-box {
         max-width: 380px;
@@ -264,6 +253,17 @@ a {
         color: #FFFFFF;
         background-color: var(--main-text-color-6);
         border-radius: 28px;
+    }
+
+    .site-nav__link:hover,
+    .login-links:hover {
+        color: var(--main-text-color-1);
+    }
+
+    .login-link-box__signup:hover,
+    .hero-part__link:hover {
+        background-color: #9AE3E3;
+        color: #FFFFFF;
     }
 }
 
